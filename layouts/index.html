@@ -51,6 +51,8 @@
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
 
+    {{ template "_internal/google_analytics.html" . }}
+
     {{ partial "js.html" . }}
 	</body>
 </html>
